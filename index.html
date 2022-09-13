@@ -1,0 +1,2075 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Flower Mart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
+          aria-current="true"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="img/snake-plant.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#777"></rect></img>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Delivering Smiles To Your Loved Ones Across India</h1>
+              <p>Encapsulate with the best of colours and fragnance, these can send a wish of well being,uplift spirits, and can say the unspoken profoundly.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/screenr.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#777"></rect></img>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="img/screen3.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#777"></rect></img>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Order These Flowers From The Evergreen Array Available Just For You</h1>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div><br>
+
+
+    <!-- Marketing messaging and featurettes
+        ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- four columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="img/red-rose.jpeg" class="bd-placeholder-img rounded-circle" alt="Cinque Terre" width="140"
+            height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice"
+            focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+          <h2 class="fw-normal">Rose</h2>
+          <a class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#viewModal">view more</a>
+          <!--viemModal-->
+          <!-- Modal -->
+          <div class="modal fade" id="viewModal" tabindex="-1" aria-labelledby="viewModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="viewModalLabel">Roses</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="album py-5 bg-light">
+                    <div class="container">
+
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/yellow.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/r0.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/r3.jfif" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/whiter.jfif" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/r2.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/orange.jfif" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/r4.jfif" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/r5.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/r6.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <img src="img/orchidc.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+          <h2 class="fw-normal">Orchid</h2>
+          <a class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#viewModal2">View more</a>
+          <!--viemModal2-->
+          <!-- Modal -->
+          <div class="modal fade" id="viewModal2" tabindex="-1" aria-labelledby="viewModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="viewModalLabel">Orchid</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="album py-5 bg-light">
+                    <div class="container">
+
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o1.jpeg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o2.jpeg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o3.jpeg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o4.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o5.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o6.jpeg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o7.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o8.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/o9.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img src="img/tulipc.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+          <h2 class="fw-normal">Tulip</h2>
+          <a class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#viewModal3">View more</a>
+          <!--viemModal3-->
+          <!-- Modal -->
+          <div class="modal fade" id="viewModal3" tabindex="-1" aria-labelledby="viewModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="viewModalLabel">Tulips</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="album py-5 bg-light">
+                    <div class="container">
+
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t1.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t2.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t3.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t4.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t5.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t6.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t7.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t8.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/t9.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.col-lg-3-->
+        <div class="col-lg-3">
+          <img src="img/liliesc.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+            aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+          <h2 class="fw-normal">Lilies</h2>
+          <a class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#viewModal4">View more</a>
+          <!--viemModal4-->
+          <!-- Modal -->
+          <div class="modal fade" id="viewModal4" tabindex="-1" aria-labelledby="viewModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="viewModalLabel">Lilies</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="album py-5 bg-light">
+                    <div class="container">
+
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l1.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l2.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l3.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l4.jpg" class="img-fluid" width="100%" height="100%" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l5.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text></img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l6.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l7.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l8.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card shadow-sm">
+                            <img src="img/l9.jpg" class="img-fluid" width="100%" height="225" role="img"
+                              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                              focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                              dy=".3em"></text>
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.col-log-3-->
+      </div><!-- /.col-lg-4 -->
+    </div><br>
+    <!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Fresh Red Rose Bunch <span class="text-muted">It’ll blow your
+            mind.</span></h2>
+        <p class="lead">The number of 8 symbolizes infinity. Confess your infinity love for someone close with this special bouquet of 8 fresh, wrappred and tied with satiny red ribbon.
+        </p>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <body class="text-center">
+
+                  <main class="form-signin w-100 m-auto">
+                    <form>
+                      <img class="mb-4" src="img/screen.jpg" alt="" width="100" height="100">
+                      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+
+                      <div class="checkbox mb-3">
+                        <label>
+                          <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                      </div>
+                    </form>
+                  </main>
+
+
+
+
+
+                </body>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Sign In
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row g-5">
+                  <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                      <span class="text-primary">Your cart</span>
+                      <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Product name</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Second product</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Third item</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                          <h6 class="my-0">Promo code</h6>
+                          <small>EXAMPLECODE</small>
+                        </div>
+                        <span class="text-success">−$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                      </li>
+                    </ul>
+
+                    <form class="card p-2">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <button type="submit" class="btn btn-secondary">Redeem</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3"></h4>
+                    <form class="needs-validation" novalidate="">
+                      <div class="row g-3">
+                        <div class="col-sm-6">
+                          <label for="firstName" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid first name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                          <label for="lastName" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid last name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="username" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                              Your username is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                          <div class="invalid-feedback">
+                            Please enter your shipping address.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address2" class="form-label">Address 2 <span
+                              class="text-muted">(Optional)</span></label>
+                          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+
+                        <div class="col-md-5">
+                          <label for="country" class="form-label">Country</label>
+                          <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid country.
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="state" class="form-label">State</label>
+                          <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="zip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="zip" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Zip code required.
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Shipping address is the same as my billing
+                          address</label>
+                      </div>
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="save-info">
+                        <label class="form-check-label" for="save-info">Save this information for next time</label>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <h4 class="mb-3">Payment</h4>
+
+                      <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                            required="">
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+
+                      <div class="row gy-3">
+                        <div class="col-md-6">
+                          <label for="cc-name" class="form-label">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label for="cc-number" class="form-label">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-expiration" class="form-label">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-cvv" class="form-label">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</a>
+      </div>
+      <div class="col-md-5">
+        <img src="img/rose bunch.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+          height="400" role="img" aria-label="Placeholder: 300x300"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" class="__web-inspector-hide-shortcut__"></rect><text x="50%"
+            y="50%" fill="#aaa" dy=".3em"></text>
+        </img>
+
+      </div>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Gourgeous Pink Tulips <span class="text-muted">It’ll blow your
+            mind.</span></h2>
+        <p class="lead">Happiness is receiving beautiful and fresh blooms. Flowers Have the Power to make anyone and everyone smile.
+        </p>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <body class="text-center">
+
+                  <main class="form-signin w-100 m-auto">
+                    <form>
+                      <img class="mb-4" src="img/screen.jpg" alt="" width="100" height="100">
+                      <a Please Sign In ></a>
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+
+                      <div class="checkbox mb-3">
+                        <label>
+                          <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                      </div>
+                    </form>
+                  </main>
+
+
+
+
+
+                </body>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
+                  modal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row g-5">
+                  <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                      <span class="text-primary">Your cart</span>
+                      <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Product name</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Second product</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Third item</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                          <h6 class="my-0">Promo code</h6>
+                          <small>EXAMPLECODE</small>
+                        </div>
+                        <span class="text-success">−$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                      </li>
+                    </ul>
+
+                    <form class="card p-2">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <button type="submit" class="btn btn-secondary">Redeem</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Billing address</h4>
+                    <form class="needs-validation" novalidate="">
+                      <div class="row g-3">
+                        <div class="col-sm-6">
+                          <label for="firstName" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid first name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                          <label for="lastName" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid last name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="username" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                              Your username is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                          <div class="invalid-feedback">
+                            Please enter your shipping address.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address2" class="form-label">Address 2 <span
+                              class="text-muted">(Optional)</span></label>
+                          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+
+                        <div class="col-md-5">
+                          <label for="country" class="form-label">Country</label>
+                          <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid country.
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="state" class="form-label">State</label>
+                          <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="zip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="zip" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Zip code required.
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Shipping address is the same as my billing
+                          address</label>
+                      </div>
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="save-info">
+                        <label class="form-check-label" for="save-info">Save this information for next time</label>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <h4 class="mb-3">Payment</h4>
+
+                      <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                            required="">
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+
+                      <div class="row gy-3">
+                        <div class="col-md-6">
+                          <label for="cc-name" class="form-label">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label for="cc-number" class="form-label">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-expiration" class="form-label">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-cvv" class="form-label">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</a>
+      </div>
+      <div class="col-md-5">
+        <img src="img/pinktulip.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+          height="400" role="img" aria-label="Placeholder: 300x300"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" class="__web-inspector-hide-shortcut__"></rect><text x="50%"
+            y="50%" fill="#aaa" dy=".3em"></text>
+        </img>
+
+      </div>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">White Lilies Bouquet <span class="text-muted">It’ll blow your
+            mind.</span></h2>
+        <p class="lead">Asiatic lilies are grown for their nearly flawless, brilliantly colored flowers that cab be up to 6 inches in diameter.
+        </p>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <body class="text-center">
+
+                  <main class="form-signin w-100 m-auto">
+                    <form>
+                      <img class="mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+                      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+
+                      <div class="checkbox mb-3">
+                        <label>
+                          <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                      </div>
+                    </form>
+                  </main>
+
+
+
+
+
+                </body>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
+                  modal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row g-5">
+                  <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                      <span class="text-primary">Your cart</span>
+                      <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Product name</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Second product</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Third item</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                          <h6 class="my-0">Promo code</h6>
+                          <small>EXAMPLECODE</small>
+                        </div>
+                        <span class="text-success">−$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                      </li>
+                    </ul>
+
+                    <form class="card p-2">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <button type="submit" class="btn btn-secondary">Redeem</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Billing address</h4>
+                    <form class="needs-validation" novalidate="">
+                      <div class="row g-3">
+                        <div class="col-sm-6">
+                          <label for="firstName" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid first name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                          <label for="lastName" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid last name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="username" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                              Your username is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                          <div class="invalid-feedback">
+                            Please enter your shipping address.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address2" class="form-label">Address 2 <span
+                              class="text-muted">(Optional)</span></label>
+                          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+
+                        <div class="col-md-5">
+                          <label for="country" class="form-label">Country</label>
+                          <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid country.
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="state" class="form-label">State</label>
+                          <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="zip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="zip" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Zip code required.
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Shipping address is the same as my billing
+                          address</label>
+                      </div>
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="save-info">
+                        <label class="form-check-label" for="save-info">Save this information for next time</label>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <h4 class="mb-3">Payment</h4>
+
+                      <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                            required="">
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+
+                      <div class="row gy-3">
+                        <div class="col-md-6">
+                          <label for="cc-name" class="form-label">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label for="cc-number" class="form-label">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-expiration" class="form-label">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-cvv" class="form-label">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</a>
+      </div>
+      <div class="col-md-5">
+        <img src="img/whitelilies.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+          height="400" role="img" aria-label="Placeholder: 300x300"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" class="__web-inspector-hide-shortcut__"></rect><text x="50%"
+            y="50%" fill="#aaa" dy=".3em"></text>
+        </img>
+
+      </div>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Fresh Pink Rose Bunch <span class="text-muted">It’ll blow your
+            mind.</span></h2>
+        <p class="lead">Pink roses imply elegance, gratitude, and sweet affection. Make ypur loved ones feel overwhelmed, over this box of rose.
+        </p>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <body class="text-center">
+
+                  <main class="form-signin w-100 m-auto">
+                    <form>
+                      <img class="mb-4" src="img/screen.jpg" alt="" width="100" height="100">
+                      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+
+                      <div class="checkbox mb-3">
+                        <label>
+                          <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                      </div>
+                    </form>
+                  </main>
+
+
+
+
+
+                </body>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
+                  modal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row g-5">
+                  <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                      <span class="text-primary">Your cart</span>
+                      <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Product name</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Second product</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Third item</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                          <h6 class="my-0">Promo code</h6>
+                          <small>EXAMPLECODE</small>
+                        </div>
+                        <span class="text-success">−$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                      </li>
+                    </ul>
+
+                    <form class="card p-2">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <button type="submit" class="btn btn-secondary">Redeem</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Billing address</h4>
+                    <form class="needs-validation" novalidate="">
+                      <div class="row g-3">
+                        <div class="col-sm-6">
+                          <label for="firstName" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid first name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                          <label for="lastName" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid last name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="username" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                              Your username is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                          <div class="invalid-feedback">
+                            Please enter your shipping address.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address2" class="form-label">Address 2 <span
+                              class="text-muted">(Optional)</span></label>
+                          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+
+                        <div class="col-md-5">
+                          <label for="country" class="form-label">Country</label>
+                          <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid country.
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="state" class="form-label">State</label>
+                          <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="zip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="zip" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Zip code required.
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Shipping address is the same as my billing
+                          address</label>
+                      </div>
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="save-info">
+                        <label class="form-check-label" for="save-info">Save this information for next time</label>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <h4 class="mb-3">Payment</h4>
+
+                      <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                            required="">
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+
+                      <div class="row gy-3">
+                        <div class="col-md-6">
+                          <label for="cc-name" class="form-label">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label for="cc-number" class="form-label">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-expiration" class="form-label">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-cvv" class="form-label">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</a>
+      </div>
+      <div class="col-md-5">
+        <img src="img/babyp.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+          height="400" role="img" aria-label="Placeholder: 300x300"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" class="__web-inspector-hide-shortcut__"></rect><text x="50%"
+            y="50%" fill="#aaa" dy=".3em"></text>
+        </img>
+
+      </div>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Fresh Orchids Bouquet <span class="text-muted">It’ll blow your
+            mind.</span></h2>
+        <p class="lead">We present you this exquisite Bouquet crafted with beautiful Orchids.Flowers are always the the right choice tm make anybody's day special.
+        </p>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <body class="text-center">
+
+                  <main class="form-signin w-100 m-auto">
+                    <form>
+                      <img class="mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+                      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+
+                      <div class="checkbox mb-3">
+                        <label>
+                          <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                      </div>
+                    </form>
+                  </main>
+
+
+
+
+
+                </body>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second
+                  modal</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+          tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row g-5">
+                  <div class="col-md-5 col-lg-4 order-md-last">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                      <span class="text-primary">Your cart</span>
+                      <span class="badge bg-primary rounded-pill">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Product name</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$12</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Second product</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0">Third item</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                          <h6 class="my-0">Promo code</h6>
+                          <small>EXAMPLECODE</small>
+                        </div>
+                        <span class="text-success">−$5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (USD)</span>
+                        <strong>$20</strong>
+                      </li>
+                    </ul>
+
+                    <form class="card p-2">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Promo code">
+                        <button type="submit" class="btn btn-secondary">Redeem</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Billing address</h4>
+                    <form class="needs-validation" novalidate="">
+                      <div class="row g-3">
+                        <div class="col-sm-6">
+                          <label for="firstName" class="form-label">First name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid first name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                          <label for="lastName" class="form-label">Last name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                          <div class="invalid-feedback">
+                            Valid last name is required.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="username" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                            <div class="invalid-feedback">
+                              Your username is required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                          <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                          <div class="invalid-feedback">
+                            Please enter your shipping address.
+                          </div>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="address2" class="form-label">Address 2 <span
+                              class="text-muted">(Optional)</span></label>
+                          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+
+                        <div class="col-md-5">
+                          <label for="country" class="form-label">Country</label>
+                          <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid country.
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="state" class="form-label">State</label>
+                          <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="zip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="zip" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Zip code required.
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Shipping address is the same as my billing
+                          address</label>
+                      </div>
+
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="save-info">
+                        <label class="form-check-label" for="save-info">Save this information for next time</label>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <h4 class="mb-3">Payment</h4>
+
+                      <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                            required="">
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+
+                      <div class="row gy-3">
+                        <div class="col-md-6">
+                          <label for="cc-name" class="form-label">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label for="cc-number" class="form-label">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-expiration" class="form-label">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label for="cc-cvv" class="form-label">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="my-4">
+
+                      <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">BUY NOW</a>
+      </div>
+      <div class="col-md-5">
+        <img src="img/orchid.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+          height="400" role="img" aria-label="Placeholder: 300x300"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" class="__web-inspector-hide-shortcut__"></rect><text x="50%"
+            y="50%" fill="#aaa" dy=".3em"></text>
+        </img>
+
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+  </main>
+
+
+  <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>
